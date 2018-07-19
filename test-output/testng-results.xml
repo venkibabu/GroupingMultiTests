@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="135" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="MultiGrouping.Scooter1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Scooter1" class="automationframework.MultiGrouping"/>
+        <method signature="MultiGrouping.Scooter2()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Scooter2" class="automationframework.MultiGrouping"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="MultiGrouping.Car1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Car1" class="automationframework.MultiGrouping"/>
+        <method signature="MultiGrouping.Car2()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Car2" class="automationframework.MultiGrouping"/>
+        <method signature="MultiGrouping.Sedan1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Sedan1" class="automationframework.MultiGrouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="MultiGrouping.Sedan1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Sedan1" class="automationframework.MultiGrouping"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Practice Multi Grouping" duration-ms="135" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+      <class name="automationframework.MultiGrouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Car1" duration-ms="26" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Car2" duration-ms="5" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Scooter1" duration-ms="2" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Scooter2" duration-ms="4" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:automationframework.MultiGrouping@7f13d6e]" name="Sedan1" duration-ms="6" started-at="2018-07-19T06:36:10Z" finished-at="2018-07-19T06:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- automationframework.MultiGrouping -->
+    </test> <!-- Practice Multi Grouping -->
+  </suite> <!-- suite -->
+</testng-results>
